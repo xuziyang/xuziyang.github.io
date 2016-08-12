@@ -84,106 +84,19 @@
 
 
 
-<meta name="description" content="在网上看了很多，讲数据库三范式的文章；看下来，都是雨里雾里，不知所云。在此，想用简单易懂的语言，讲明数据库的前三个范式。  
-##第一范式：列不可拆分,换句话说:表必须是二维表
-
-   
-##第二范式：不存在部分主键依赖
-
-
-
-商品id（主键）
-商品名称
-供应商id（主键）
-供应商名称
-
-
-
-
-1
-洗面奶
-1
-供应商1
-
-
-2
-84消毒液
-2
-供应商2
-
-
-
-  商品名称依赖商品id，不依赖供应商">
+<meta name="description" content="#git配置
+12345678$ git config --global color.ui true$ git config --global alias.co checkout$ git config --global alias.ci commit$ git config --global alias.st status$ git config --global alias.br branch">
 <meta property="og:type" content="article">
-<meta property="og:title" content="数据库设计三范式">
-<meta property="og:url" content="http://zainxu.com/2016/08/04/数据库设计三范式/index.html">
+<meta property="og:title" content="git常用命令">
+<meta property="og:url" content="http://zainxu.com/2016/08/12/git常用命令/index.html">
 <meta property="og:site_name" content="许子阳的博客">
-<meta property="og:description" content="在网上看了很多，讲数据库三范式的文章；看下来，都是雨里雾里，不知所云。在此，想用简单易懂的语言，讲明数据库的前三个范式。  
-##第一范式：列不可拆分,换句话说:表必须是二维表
-
-   
-##第二范式：不存在部分主键依赖
-
-
-
-商品id（主键）
-商品名称
-供应商id（主键）
-供应商名称
-
-
-
-
-1
-洗面奶
-1
-供应商1
-
-
-2
-84消毒液
-2
-供应商2
-
-
-
-  商品名称依赖商品id，不依赖供应商">
-<meta property="og:image" content="http://img.blog.csdn.net/20160803151024047">
-<meta property="og:image" content="http://img.blog.csdn.net/20160803153001370">
-<meta property="og:updated_time" content="2016-08-04T03:32:48.000Z">
+<meta property="og:description" content="#git配置
+12345678$ git config --global color.ui true$ git config --global alias.co checkout$ git config --global alias.ci commit$ git config --global alias.st status$ git config --global alias.br branch">
+<meta property="og:updated_time" content="2016-08-12T06:11:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="数据库设计三范式">
-<meta name="twitter:description" content="在网上看了很多，讲数据库三范式的文章；看下来，都是雨里雾里，不知所云。在此，想用简单易懂的语言，讲明数据库的前三个范式。  
-##第一范式：列不可拆分,换句话说:表必须是二维表
-
-   
-##第二范式：不存在部分主键依赖
-
-
-
-商品id（主键）
-商品名称
-供应商id（主键）
-供应商名称
-
-
-
-
-1
-洗面奶
-1
-供应商1
-
-
-2
-84消毒液
-2
-供应商2
-
-
-
-  商品名称依赖商品id，不依赖供应商">
-<meta name="twitter:image" content="http://img.blog.csdn.net/20160803151024047">
+<meta name="twitter:title" content="git常用命令">
+<meta name="twitter:description" content="#git配置
+12345678$ git config --global color.ui true$ git config --global alias.co checkout$ git config --global alias.ci commit$ git config --global alias.st status$ git config --global alias.br branch">
 
 
 
@@ -204,9 +117,9 @@
 
 
 
-  <link rel="canonical" href="http://zainxu.com/2016/08/04/数据库设计三范式/"/>
+  <link rel="canonical" href="http://zainxu.com/2016/08/12/git常用命令/"/>
 
-  <title> 数据库设计三范式 | 许子阳的博客 </title>
+  <title> git常用命令 | 许子阳的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -326,7 +239,7 @@
             
             
               
-                数据库设计三范式
+                git常用命令
               
             
           </h1>
@@ -338,8 +251,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-04T11:31:15+08:00" content="2016-08-04">
-              2016-08-04
+            <time itemprop="dateCreated" datetime="2016-08-12T14:10:33+08:00" content="2016-08-12">
+              2016-08-12
             </time>
           </span>
 
@@ -366,56 +279,17 @@
       
 
       
-        <p>在网上看了很多，讲数据库三范式的文章；看下来，都是雨里雾里，不知所云。在此，想用简单易懂的语言，讲明数据库的前三个范式。<br>  <br></p>
-<p>##第一范式：列不可拆分,换句话说:表必须是二维表</p>
-<p><img src="http://img.blog.csdn.net/20160803151024047" alt="这里写图片描述"></p>
-<p><img src="http://img.blog.csdn.net/20160803153001370" alt="这里写图片描述"><br>   <br></p>
-<p>##第二范式：不存在部分主键依赖</p>
-<table>
-<thead>
-<tr>
-<th>商品id（主键）</th>
-<th style="text-align:center">商品名称</th>
-<th>供应商id（主键）</th>
-<th>供应商名称</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td style="text-align:center">洗面奶</td>
-<td>1</td>
-<td>供应商1</td>
-</tr>
-<tr>
-<td>2</td>
-<td style="text-align:center">84消毒液</td>
-<td>2</td>
-<td>供应商2</td>
-</tr>
-</tbody>
-</table>
-<p>  <br><br><strong>商品名称依赖商品id，不依赖供应商id。</strong><br>  <br></p>
-<p>##第三范式：不存在传递依赖</p>
-<table>
-<thead>
-<tr>
-<th>商品id（主键）</th>
-<th style="text-align:center">商品名称</th>
-<th>供应商名称</th>
-<th>供应商简介</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td style="text-align:center">洗面奶</td>
-<td>供应商1</td>
-<td>全球化妆品品牌领导者</td>
-</tr>
-</tbody>
-</table>
-<p>  <br><br><strong>供应商简介依赖供应商名称，供应商依赖商品id（主键）</strong></p>
+        <p>#git配置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">$ git config --global color.ui true</div><div class="line">$ git config --global alias.co checkout</div><div class="line">$ git config --global alias.ci commit</div><div class="line">$ git config --global alias.st status</div><div class="line">$ git config --global alias.br branch</div><div class="line"></div><div class="line"># 列举所有配置</div><div class="line">$ git config -l</div></pre></td></tr></table></figure>
+<p>#查看<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"># 显示某次提交的内容</div><div class="line">$ git show          </div><div class="line">$ git show $id</div><div class="line"></div><div class="line"># 恢复某次提交的状态，恢复状态本身也提交了一次对象</div><div class="line">$ git revert $id </div><div class="line"></div><div class="line"># 恢复上次提交的状态    </div><div class="line">$ git revert HEAD</div></pre></td></tr></table></figure></p>
+<p>#查看文件diff</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># 比较当前文件与暂存区的不同</div><div class="line">$ git diff &lt;file&gt;</div></pre></td></tr></table></figure>
+<p>#分支</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"># 列出所有本地分支</div><div class="line">$ git branch   </div><div class="line"></div><div class="line"># 列出所有远程分支</div><div class="line">$ git branch -r </div><div class="line"></div><div class="line"># 列出所有本地分支和远程分支</div><div class="line">$ git branch -a</div><div class="line"></div><div class="line"># 新建一个分支，但是仍然停留在当前分支</div><div class="line">$ git branch [branch-name] </div><div class="line"></div><div class="line"># 新建一个分支，并切换到该分支</div><div class="line">$ git checkout -b [branch] </div><div class="line"></div><div class="line"># 新建一个分支，并指定一个commit</div><div class="line">$ git branch [branch] [commit]</div><div class="line"></div><div class="line"># 删除一个分支</div><div class="line">$ git branch -d [branch-name] </div><div class="line"></div><div class="line"># 拉取远程分支，到本地分支 并切换到该分支</div><div class="line">$ git branch -b [branch] [remote branch]</div><div class="line"></div><div class="line"># 切换到上一个分支</div><div class="line">$ git checkout -</div><div class="line"></div><div class="line"># 建立追踪关系 在现有分支和远程分支之间</div><div class="line">$ git branch --set-upstream [branch] [remote branch]</div></pre></td></tr></table></figure>
+<p>#远程同步<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># 查看远程仓库</div><div class="line">$ git remote -v</div></pre></td></tr></table></figure></p>
+<p>#撤销</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># 暂时将未提交的变化移除，稍后再移入</div><div class="line">$ git stash </div><div class="line"></div><div class="line"># 命令是恢复stash队列中的stash@&#123;0&#125;，然后从记录就删除</div><div class="line">$ git stash pop</div><div class="line"></div><div class="line"># 丢弃工作区的修改</div><div class="line">$ git checkout -- file</div><div class="line"></div><div class="line"># 把暂存区的修改撤销掉（unstage），重新放回工作区</div><div class="line">$ git reset HEAD file</div></pre></td></tr></table></figure>
+<p>#修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># 修改最后一次提交的注释信息</div><div class="line">$ 修改最后一次提交的信息</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -441,17 +315,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/07/26/mysql数据库结构设计/" rel="next" title="mysql数据库结构设计">
-                <i class="fa fa-chevron-left"></i> mysql数据库结构设计
+              <a href="/2016/08/04/数据库设计三范式/" rel="next" title="数据库设计三范式">
+                <i class="fa fa-chevron-left"></i> 数据库设计三范式
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/08/12/git常用命令/" rel="prev" title="git常用命令">
-                git常用命令 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
